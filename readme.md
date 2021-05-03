@@ -26,3 +26,4 @@ avengers.weapon=shield
 在controller上面添加注解：@RefreshScope可以实时刷新配置
 
 如果项目的maven不正常，可以在pom上右键-maven-reimport
+

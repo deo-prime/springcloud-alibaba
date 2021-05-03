@@ -20,5 +20,4 @@ public class ConfigController {
     public String get() {
         return String.format("name :%s, weapon: %s", name, weapon);
     }
-
 }
