@@ -2,8 +2,9 @@
 https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E
 
 # 文档地址
-[https://spring-cloud-alibaba-group.github.io/github-pages/hoxton/en-us/index.html][spring官方文档]
-[https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html][nacos官方文档]
+[spring官方文档](https://spring-cloud-alibaba-group.github.io/github-pages/hoxton/en-us/index.html)
+
+[nacos官方文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
 
 # 踩的坑
 1. dataid中的prefix没有和spring.application.name完全一致
@@ -63,7 +64,6 @@ curl -X GET "http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=demo-service-test.
 ```
 由于踩了内容不能含有多于空格的坑，所以顺带着看了一眼代码，确认一下加载的配置信息是否正常：
 `org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize`
-
 
 
 
